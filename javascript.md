@@ -1,4 +1,5 @@
 # 搞懂JS最困難的部分
+
 - 0-1. [關於程序Process與執行緒Thread 的比喻](http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html)
 - 0-2. [作業系統中的 Process 與 Thread](http://blog.jobbole.com/95261/)
 
@@ -27,7 +28,6 @@
 * [深入原型物件](http://blog.csdn.net/hongse_zxl/article/details/44622997)
 * [原型污染與猴子補丁](http://blog.csdn.net/hongse_zxl/article/details/44648725)
 
-
 # React native (iOS)搭配 Parse 使用 Push notification
 
 1. [設定憑證與 SDK](https://parse.com/tutorials/ios-push-notifications)
@@ -39,7 +39,6 @@
 7. [StackOverflow 上的解法](http://stackoverflow.com/questions/29683720/react-native-push-notifications-parse/29951150#29951150)
 8. [影片](https://www.youtube.com/watch?v=CT95g91jfMY)
 9. [Github Issue](https://github.com/facebook/react-native/issues/1063)
-
 
 # 重構 ReactNative APP
 
@@ -56,7 +55,6 @@
 11. 重新設計資料流架構
 * [cheatsheets](http://ricostacruz.com/cheatsheets/react.html)
 
-
 # 在 workflow 加入 TypeScript
 
 * [官方教學](http://www.typescriptlang.org/Tutorial)
@@ -67,19 +65,19 @@
 * [TS 與 Webpack](http://www.jbrantly.com/typescript-and-webpack/)
 * [TS with JSX](http://staxmanade.com/2015/08/playing-with-typescript-and-jsx/)
 
-
 # JS 奇技淫巧
 
 * [+ 和 parseInt 差異](http://stackoverflow.com/questions/17106681/parseint-vs-unary-plus-when-to-use-which)
 * [12個實用的怪招](http://www.yyyweb.com/2860.html)
 * [遍歷的黑魔法](http://segmentfault.com/a/1190000003968126)
 
-
-# JS 基礎語法練習
+# JS 基礎
 
 * [Destructing assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 * [setup](https://leanpub.com/setting-up-es6/read#leanpub-auto-es6-repls)
-
+* [20 種 Array 方法圖解](https://github.com/tooto1985/js-array-operations)
+* [Array 方法練習](http://andyyou.github.io/javascript/2016/02/16/javascript-array-methods.html)
+* [HTML 中 javascript: 的解釋](http://stackoverflow.com/questions/14605247/why-do-you-see-colons-while-calling-a-javascript-function-in-html-sometimes)
 
 # JS 該不該加分號與其精髓
 
@@ -107,6 +105,9 @@
 * [深度解析 Virtual DOM](https://github.com/livoras/blog/issues/13#issuecomment-161275791)
 * [React Components, Elements, and Instances](https://medium.com/@dan_abramov/react-components-elements-and-instances-90800811f8ca#.rdh6xkhvl)
 
+# ES6
+
+* [DockDockGo ES6 cheatsheets](https://duckduckgo.com/?q=es6+cheatsheet&ia=answer&iax=1)
 
 # ES6 - Generator
 
@@ -128,12 +129,12 @@
 * [HTML5Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/)
 * [HTML5Rocks 中文](http://www.html5rocks.com/zh/tutorials/es6/promises/)
 * [實現 Promise](http://segmentfault.com/a/1190000003503540)
+* [剖析Promise内部结构](https://github.com/xieranmaya/blog/issues/3)
 
 # VScode debug
 
 * [建立一個基本的專案教學](https://code.visualstudio.com/docs/runtimes/nodejs)
 * [設定 debuger](https://code.visualstudio.com/Docs/editor/debugging)
-
 
 # webpack
 
@@ -145,7 +146,6 @@
 * [Isomorphic vs Universal](https://medium.com/@ghengeveld/isomorphism-vs-universal-javascript-4b47fb481beb#.24rtzb50j)
 * [Isomorphic](http://isomorphic.net/)
 * [Universal JavaScript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.yvthsmjvg)
-
 
 # Unit testing
 
@@ -162,7 +162,116 @@
 * [架構簡介](https://github.com/kuitos/kuitos.github.io/issues/27)
 * [實作購物車](https://scotch.io/tutorials/creating-a-simple-shopping-cart-with-react-js-and-flux)
 
+# npm
+
+* [官方文件](https://docs.npmjs.com/)
+* [npm install 的機制](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+* [提升 npm 的安裝速度](https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi69436ktnKAhWGK6YKHb-ACtQQFggcMAA&url=https%3A%2F%2Fblog.wu-boy.com%2F2016%2F01%2Fspeed-up-npm-install%2F&usg=AFQjCNHtFhRTidBD0U7eiCFTVp7DH9g-Og)
+* [npm script](https://css-tricks.com/why-npm-scripts/)
+
+
+# Scale
+
+* [swarm + interlock + nginx + redis 達到保有 session 的 HA 及 dynamic scaling 架構](http://genchilu-blog.logdown.com/posts/509176)
+
 # 其他
 
 * [SEO](http://www.carolechen.com/blog)
 * [npm install 的機制](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+
+# 補充紀錄
+
+~~~js
+new Date();
+// Sat Dec 19 2015 15:21:47 GMT+0800 (CST)
++ new Date();
+// 1450509698090
+~~~
+
+#### 快速建立一個 react, webpack, hot-reload 專案
+
+~~~bash
+> git clone https://github.com/gaearon/react-hot-boilerplate.git [project name]
+~~~
+
+#### parseInt v.s Number
+
+* `'23.1'`
+  - parseInt() // 23
+  - Number() // 23.1
+* `'2e1'`
+  - parseInt() // 2
+  - Number() // 20
+* `25px`
+  - parseInt() // 25
+  - Number() // NaN
+* `'p23'`
+  - parseInt() // NaN
+  - Number() // NaN
+* `'010'`
+  - parseInt() // 10 ，ECMAScript 3 是 8 預設八進制 ES5 之後改變
+  - Number() // 10
+* `0xf`
+  - parseInt() // 15
+  - Number() // 15
+
+#### 易忘
+
+~~~js
+Array.slice(start,end) // 背後的重點是回傳一個新的 array object 。從 start index 開始，取到 end index 之前
+Array.splice(index, length, item1, item2) // 修改現有的 Array 產生 side effect
+String.split(separator, limit) // 用 separator 符號分割，取 limit 數量
+
+"abcde".slice(index, endIndex)
+"abcde".slice(1,3) // bc
+
+string.substr(start, length)
+"abcde".substr(1, 3) // bcd
+
+[1, 2, 3, 4].slice(1, 3) // [2, 3]
+[1, 2, 3, 4].splice(1, 3) // [2, 3, 4]
+[1, 2, 3, 4].splice(-1, 3) // [4]
+
+// splice 拼接
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 1, "Lemon", "Kiwi");
+~~~
+
+#### 隨機取範圍數
+
+~~~js
+var x = Math.floor(Math.random() * (max - min + 1)) + min;
+~~~
+
+#### 從 0 生成到 N
+
+~~~js
+var items = [], max = 100;
+for (var i = 0; items.push(i++) < max;);
+~~~
+
+#### Math 套用於陣列
+
+~~~js
+var  numbers = [5, 458 , 120 , -215 , 228 , 400 , 122205, -85411];
+var max = Math.max.apply(Math, numbers);
+var min = Math.min.apply(Math, numbers);
+~~~
+
+#### 移除陣列元素的小技巧
+
+~~~js
+var ary = [1, 2, 3, 4, 5]
+ary.length = 3 // [1, 2, 3]
+~~~
+
+### Tips
+
+~~~js
+var min = Math.min(a,b);
+A.push(v);
+
+// 改寫成下面效能較佳
+var min = a < b ? a : b;
+A[A.length] = v;
+~~~
