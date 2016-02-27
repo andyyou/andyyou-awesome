@@ -78,6 +78,7 @@
 * [20 種 Array 方法圖解](https://github.com/tooto1985/js-array-operations)
 * [Array 方法練習](http://andyyou.github.io/javascript/2016/02/16/javascript-array-methods.html)
 * [HTML 中 javascript: 的解釋](http://stackoverflow.com/questions/14605247/why-do-you-see-colons-while-calling-a-javascript-function-in-html-sometimes)
+* [delete 與 var 加不加的詭異行為](http://stackoverflow.com/questions/1596782/how-to-unset-a-javascript-variable)
 
 # JS 該不該加分號與其精髓
 
