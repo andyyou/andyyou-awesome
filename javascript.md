@@ -179,6 +179,7 @@
 
 * [SEO](http://www.carolechen.com/blog)
 * [npm install 的機制](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
+* [3D touch 偵測](http://pressurejs.com/)
 
 # 補充紀錄
 
