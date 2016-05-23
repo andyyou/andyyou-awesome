@@ -140,6 +140,7 @@
 # webpack
 
 * [webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
+* [webpack 令人困惑的地方](https://segmentfault.com/a/1190000005089993)
 
 # Isomorphic / Universal
 
@@ -148,9 +149,11 @@
 * [Isomorphic](http://isomorphic.net/)
 * [Universal JavaScript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.yvthsmjvg)
 
-# Unit testing
+# 測試
 
 * [Unit test with mocha chai](http://www.sitepoint.com/unit-test-javascript-mocha-chai/)
+* [Postman 測試 API](https://segmentfault.com/a/1190000005055899)
+
 
 # Flux
 
@@ -180,6 +183,7 @@
 * [SEO](http://www.carolechen.com/blog)
 * [npm install 的機制](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
 * [3D touch 偵測](http://pressurejs.com/)
+* [Node + PostgreSQL + TDD](http://mherman.org/blog/2016/04/28/test-driven-development-with-node/#.VzP9G2ZZDdQ)
 
 # 補充紀錄
 
