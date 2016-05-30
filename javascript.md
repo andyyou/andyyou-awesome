@@ -70,6 +70,7 @@
 * [+ 和 parseInt 差異](http://stackoverflow.com/questions/17106681/parseint-vs-unary-plus-when-to-use-which)
 * [12個實用的怪招](http://www.yyyweb.com/2860.html)
 * [遍歷的黑魔法](http://segmentfault.com/a/1190000003968126)
+* [實用的 10 個小片段](http://www.jianshu.com/p/3ef822ec5a63)
 
 # JS 基礎
 
@@ -141,6 +142,7 @@
 
 * [webpack cookbook](https://fakefish.github.io/react-webpack-cookbook/)
 * [webpack 令人困惑的地方](https://segmentfault.com/a/1190000005089993)
+* [Survive webpack](http://survivejs.com/webpack_react/developing_with_webpack/)
 
 # Isomorphic / Universal
 
@@ -177,6 +179,10 @@
 # Scale
 
 * [swarm + interlock + nginx + redis 達到保有 session 的 HA 及 dynamic scaling 架構](http://genchilu-blog.logdown.com/posts/509176)
+
+# 函式庫
+
+* [PDF.js](https://www.sitepoint.com/custom-pdf-rendering/)
 
 # 其他
 
