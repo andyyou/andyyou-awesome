@@ -71,6 +71,7 @@
 * [12個實用的怪招](http://www.yyyweb.com/2860.html)
 * [遍歷的黑魔法](http://segmentfault.com/a/1190000003968126)
 * [實用的 10 個小片段](http://www.jianshu.com/p/3ef822ec5a63)
+* [搞懂 ASI 自動分號插入](https://segmentfault.com/a/1190000004548664)
 
 # JS 基礎
 
@@ -86,11 +87,13 @@
 * [Semicolons in JavaScript are optional](http://mislav.net/2010/05/semicolons/)
 * [知乎吵架串](http://www.zhihu.com/question/20298345)
 * [加不加分號的範例](http://www.cnblogs.com/hustskyking/p/semicolon-retalk.html)
+* [搞懂 ASI 自動分號插入](https://segmentfault.com/a/1190000004548664)
 
 # 模組相關
 
 * [exports vs module.exports](http://weizhifeng.net/node-js-exports-vs-module-exports.html)
 * [參透 ES6 Module](http://www.sitepoint.com/understanding-es6-modules/)
+* [匯出 umd](http://babeljs.io/docs/plugins/transform-es2015-modules-umd/)
 
 # 參透閉包
 
@@ -129,6 +132,7 @@
 * [Javascript Promise 迷你書](http://liubin.org/promises-book/#chapter1-what-is-promise)
 * [Javascript Promise 探微](http://www.html-js.com/article/Promise-translation-JavaScript-Promise-devil-details)
 * [HTML5Rocks](http://www.html5rocks.com/en/tutorials/es6/promises/)
+* [Promise wrong ways](https://blog.getify.com/promises-wrong-ways/)
 * [HTML5Rocks 中文](http://www.html5rocks.com/zh/tutorials/es6/promises/)
 * [實現 Promise](http://segmentfault.com/a/1190000003503540)
 * [剖析Promise内部结构](https://github.com/xieranmaya/blog/issues/3)
@@ -179,6 +183,7 @@
 # Scale
 
 * [swarm + interlock + nginx + redis 達到保有 session 的 HA 及 dynamic scaling 架構](http://genchilu-blog.logdown.com/posts/509176)
+* [網頁效能詳解](http://www.ruanyifeng.com/blog/2015/09/web-page-performance-in-depth.html)
 
 # 函式庫
 
@@ -190,6 +195,8 @@
 * [npm install 的機制](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
 * [3D touch 偵測](http://pressurejs.com/)
 * [Node + PostgreSQL + TDD](http://mherman.org/blog/2016/04/28/test-driven-development-with-node/#.VzP9G2ZZDdQ)
+* [Function Programming Terms](https://github.com/hemanth/functional-programming-jargon)
+* [從入門到專精彙整](https://github.com/vic317yeh/One-Click-to-Be-Pro)
 
 # 補充紀錄
 
