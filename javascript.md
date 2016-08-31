@@ -72,6 +72,9 @@
 * [遍歷的黑魔法](http://segmentfault.com/a/1190000003968126)
 * [實用的 10 個小片段](http://www.jianshu.com/p/3ef822ec5a63)
 * [搞懂 ASI 自動分號插入](https://segmentfault.com/a/1190000004548664)
+* [Return true to win](http://alf.nu/ReturnTrue)
+* [Return true to win answer](https://barnacles.blackfriday/s/wd9mo2/return_true_to_win)
+* [Zero in Javascript](http://zero.milosz.ca/)
 
 # JS 基礎
 
@@ -88,6 +91,7 @@
 * [知乎吵架串](http://www.zhihu.com/question/20298345)
 * [加不加分號的範例](http://www.cnblogs.com/hustskyking/p/semicolon-retalk.html)
 * [搞懂 ASI 自動分號插入](https://segmentfault.com/a/1190000004548664)
+* [規格](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-automatic-semicolon-insertion)
 
 # 模組相關
 
@@ -154,6 +158,7 @@
 * [Isomorphic vs Universal](https://medium.com/@ghengeveld/isomorphism-vs-universal-javascript-4b47fb481beb#.24rtzb50j)
 * [Isomorphic](http://isomorphic.net/)
 * [Universal JavaScript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.yvthsmjvg)
+* [一秒看懂 Server Rendering（Isomorphic)](http://blog.techbridge.cc/2016/08/27/react-redux-immutablejs-node-server-isomorphic-tutorial/)
 
 # 測試
 
@@ -234,6 +239,21 @@ new Date();
   - parseInt() // 15
   - Number() // 15
 
+```
+parseInt(0.000001)
+// 0
+parseInt(0.0000001)
+// 1
+(0.000001).toString()
+// "0.000001"
+(0.0000001).toString()
+// "1e-7"
+parseInt((0.000001).toString())
+// 0
+parseInt((0.0000001).toString())
+// 1
+```
+
 #### 易忘
 
 ~~~js
@@ -294,3 +314,26 @@ A.push(v);
 var min = a < b ? a : b;
 A[A.length] = v;
 ~~~
+
+### ASI 插入 ; 的規則
+
+0. 完整的 statement 後方加上 `;`
+  * var statement
+  * expression statement
+  * do-while statement
+  * continue statement
+  * break statement
+  * return statement
+  * throw statement
+1. 解析器由左至右解析(讀取 token)，遇到不能組成合法 statement 時會在該 token 前方加入 `;` 此時這個 token 稱為 `Offending token`
+  * token 之間存在換行符號 \n
+    + return，break，continue，++，-- 此五種 token 前方的換行完全等於 `;`
+  * 讀到 `}` 時檢查前方是否為 statement，如果不是在前方補上 `;` e.g `{ a } b` => `{ a; } b;`
+    + block `{}` 語句區塊是不需要在尾巴加上 `;`
+  * 無法構成語句且當前方的 token 是 `)` 試圖解析是否為 `do...while`
+2. 發現程式結尾有問題時嘗試於末尾加上 `;`
+3. 當碰上 `Restricted production` 時，搭配的 expression 後方自動加上 `;`
+  * `return`, `throw`, `break`, `continue`, `++ post-increment`/`-- decrement`, `yield`, `ES2015 arrow function () => {}` 這些關鍵字為 `Restricted production` 與回傳值之間不能換行
+4. 兩個例外
+  * 分號不能被解析成空語句
+  * 遇到 for 時也不能在 for() 內部中插入 `;`
