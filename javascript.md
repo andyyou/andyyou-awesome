@@ -165,6 +165,15 @@
 * [Unit test with mocha chai](http://www.sitepoint.com/unit-test-javascript-mocha-chai/)
 * [Postman 測試 API](https://segmentfault.com/a/1190000005055899)
 
+# RxJS / Reactive Programming
+
+* [Reactive Programming 簡介與教學(以 RxJS 為例)](http://blog.techbridge.cc/2016/05/28/reactive-programming-intro-by-rxjs/)
+* [2 minute introduction to Rx](https://medium.com/@andrestaltz/2-minute-introduction-to-rx-24c8ca793877#.n4panr857)
+* [基礎介紹 Rx](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+* [視覺化 Rx 效果](http://rxmarbles.com/#map)
+* [Bacon.js 教學](https://baconjs.github.io/tutorials.html)
+* [响应式编程](http://nicholas.ren/2015/06/24/lets-talk-about-reactive.html)
+* [Rx 官方文件](http://xgrommx.github.io/rx-book/index.html)
 
 # Flux
 
