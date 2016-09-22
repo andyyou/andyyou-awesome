@@ -37,6 +37,7 @@
 * [Loading icon resource 1](http://loading.io/)
 * [Loading icon resource 2](http://projects.lukehaas.me/css-loaders/)
 * [Menu 參考](http://artatm.com/2013/11/free-responsive-menu-and-mega-menu-downloads-and-tutorial/)
+* [使用纯 CSS 实现 Google Photos 照片列表布局](https://github.com/xieranmaya/blog/issues/4)
 
 # 其他
 
