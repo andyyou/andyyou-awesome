@@ -84,6 +84,7 @@
 * [Array 方法練習](http://andyyou.github.io/javascript/2016/02/16/javascript-array-methods.html)
 * [HTML 中 javascript: 的解釋](http://stackoverflow.com/questions/14605247/why-do-you-see-colons-while-calling-a-javascript-function-in-html-sometimes)
 * [delete 與 var 加不加的詭異行為](http://stackoverflow.com/questions/1596782/how-to-unset-a-javascript-variable)
+* [根治JavaScript中的this-ECMAScript规范解读](http://mp.weixin.qq.com/s?__biz=MzIzMDYwMDMxNA==&mid=2247483668&idx=1&sn=f0db1286d500b425cf1ba643ab00b0e2&chksm=e8b1ba01dfc6331722071f160223b6d509cbd8021c87324667e1dd01f59c7a9b9c11500733b9&scene=0#wechat_redirect)
 
 # JS 該不該加分號與其精髓
 
@@ -93,11 +94,18 @@
 * [搞懂 ASI 自動分號插入](https://segmentfault.com/a/1190000004548664)
 * [規格](http://www.ecma-international.org/ecma-262/6.0/index.html#sec-automatic-semicolon-insertion)
 
+# Babel/ES2015
+
+* [ECMAScript 6入门](https://likebeta.gitbooks.io/es6tutorial/content/docs/intro.html)
+* [clearing up the babel 6 ecosystem](https://medium.com/@jcse/clearing-up-the-babel-6-ecosystem-c7678a314bf3#.bma893r3b)
+* [Babel 相關基礎](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+
 # 模組相關
 
 * [exports vs module.exports](http://weizhifeng.net/node-js-exports-vs-module-exports.html)
 * [參透 ES6 Module](http://www.sitepoint.com/understanding-es6-modules/)
 * [匯出 umd](http://babeljs.io/docs/plugins/transform-es2015-modules-umd/)
+
 
 # 參透閉包
 
