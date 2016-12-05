@@ -168,6 +168,10 @@
 * [Universal JavaScript](https://medium.com/@mjackson/universal-javascript-4761051b7ae9#.yvthsmjvg)
 * [一秒看懂 Server Rendering（Isomorphic)](http://blog.techbridge.cc/2016/08/27/react-redux-immutablejs-node-server-isomorphic-tutorial/)
 
+# 實務應用
+
+* [浅谈 Underscore.js 中 _.throttle 和 _.debounce 的差异](https://blog.coding.net/blog/the-difference-between-throttle-and-debounce-in-underscorejs)
+
 # 測試
 
 * [Unit test with mocha chai](http://www.sitepoint.com/unit-test-javascript-mocha-chai/)
@@ -201,6 +205,9 @@
 * [提升 npm 的安裝速度](https://www.google.com.tw/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi69436ktnKAhWGK6YKHb-ACtQQFggcMAA&url=https%3A%2F%2Fblog.wu-boy.com%2F2016%2F01%2Fspeed-up-npm-install%2F&usg=AFQjCNHtFhRTidBD0U7eiCFTVp7DH9g-Og)
 * [npm script](https://css-tricks.com/why-npm-scripts/)
 
+# Vue
+
+* [Learn Vue 2 Step by Step](https://laracasts.com/series/learn-vue-2-step-by-step/episodes)
 
 # Scale
 
